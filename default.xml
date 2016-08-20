@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="mm6.0" >
+  <project path="build" name="TBoneWiz/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -266,7 +266,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="mm6.0" />
+  <project path="frameworks/base" name="TBoneWiz/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -275,7 +275,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="mm6.0" />
+  <project path="frameworks/native" name="TBoneWiz/frameworks_native" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -294,7 +294,7 @@
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" remote="github" revision="mm6.0" />
+  <project path="frameworks/opt/slim" name="TBoneWiz/frameworks_opt_slim" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
@@ -324,7 +324,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="mm6.0" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="mm6.0" />
+  <project path="hardware/libhardware_legacy" name="TBoneWiz/hardware_libhardware_legacy" remote="github" revision="mm6.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
@@ -381,7 +381,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0" />
   <project path="packages/apps/BasicSmsReceiver" name="SlimRoms/packages_apps_BasicSmsReceiver" remote="github" revision="mm6.0" />
-  <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Bluetooth" name="TBoneWiz/packages_apps_Bluetooth" remote="github" revision="mm6.0" />
   <project path="packages/apps/BluetoothExt" name="SlimRoms/packages_apps_BluetoothExt" remote="github" revision="mm6.0" />
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
@@ -415,7 +415,7 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="mm6.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="TBoneWiz/packages_apps_Settings" remote="github" revision="mm6.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" remote="github" revision="mm6.0" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
@@ -434,7 +434,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="mm6.0" />
-  <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
+  <project path="packages/providers/DownloadProvider" name="TBoneWiz/packages_providers_DownloadProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="mm6.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="github" revision="mm6.0" />
@@ -488,8 +488,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="SlimRoms/android_system_bt" remote="github" revision="mm6.0" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="mm6.0" />
+  <project path="system/bt" name="TBoneWiz/android_system_bt" remote="github" revision="mm6.0" />
+  <project path="system/core" name="TBoneWiz/android_system_core" remote="github" revision="mm6.0" />
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="mm6.0" />
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -517,7 +517,7 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="mm6.0" />
+  <project path="vendor/slim" name="TBoneWiz/vendor_slim" remote="github" revision="mm6.0" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
