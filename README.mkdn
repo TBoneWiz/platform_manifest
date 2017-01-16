@@ -8,13 +8,22 @@ Getting Started
 To get started you'll need to get familiar with
 [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository use this command:
+Make home directory for ROM builds (like android/system):
+
+	~$ mkdir android/system
+
+
+Go to newly created directory:
+
+	~$ cd android/system
+
+Initialize your local repository in android/system using this command:
 
 
 	repo init -u git://github.com/TBoneWiz/platform_manifest.git -b mm6.0
 
 
-Then sync up with this command:
+Then sync up with this command (this will take a long time):
 
 	repo sync
 
