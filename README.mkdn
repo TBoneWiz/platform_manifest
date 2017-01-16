@@ -18,5 +18,29 @@ Then sync up with this command:
 
 	repo sync
 
+Then set up environment:
+
+	source build/envsetup.sh
+
+
+Then pull device-dependent stuff:
+
+	breakfast mondrianwifi
+
+Then set up cache (I use 50G):
+
+	prebuilts/misc/linux-x86/ccache/ccache -M 50G
+
+To build just the kernel:
+
+	mka bootimage
+
+To build full user-debug ROM variant:
+
+	brunch mondrianwifi
+
+To build full user ROM variant with reduced logging (and no Superuser, but SuperSU takes over):
+
+	brunch mondrianwifi user
 
 I have a lot to learn - please don't judge me...
