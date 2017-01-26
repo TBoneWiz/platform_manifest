@@ -44,12 +44,29 @@ To build just the kernel:
 
 	mka bootimage
 
-To build full user-debug ROM variant:
+To build file-based image instead of default block-based:
 
+	export BLOCK_BASED_OTA=false
+
+To build classic user-debug SlimROM with all apps instead of default essential build (no SuperSU or Viper4Android):
+
+	export SLIM_FULL=true
 	brunch mondrianwifi
 
-To build full user ROM variant with reduced logging (and no Superuser, but SuperSU takes over):
+To build classic SlimROM user ROM variant with Superuser:
 
+	export SLIM_FULL=true
+	export WITH_SU=true
 	brunch mondrianwifi user
 
-I have a lot to learn - please don't judge me...
+To build essential user-debug ROM variant (SuperSU, Viper4Android and screen binary included):
+
+	export SLIM_FULL=false
+	brunch mondrianwifi
+
+To build essential user ROM variant with reduced logging:
+
+	export SLIM_FULL=false
+	brunch mondrianwifi user
+
+Getting better at it...
