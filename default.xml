@@ -265,7 +265,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
+  <project path="frameworks/av" name="TBoneWiz/frameworks_av" remote="github" revision="mm6.0" />
   <project path="frameworks/base" name="TBoneWiz/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -328,14 +328,14 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio/default" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8660" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8660" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="SlimRoms/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8996" />
+  <project path="hardware/qcom/audio/default" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8660" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8660" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="TBoneWiz/hardware_qcom_audio" remote="github" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/bt-caf" name="SlimRoms/hardware_qcom_bt" remote="github" revision="mm6.0-caf" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="mm6.0" />
@@ -351,13 +351,13 @@
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/media/default" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/media-caf/apq8084" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8660" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8660" />
-  <project path="hardware/qcom/media-caf/msm8916" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/apq8084" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8660" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8660" />
+  <project path="hardware/qcom/media-caf/msm8916" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="TBoneWiz/hardware_qcom_media" remote="github" revision="mm6.0-caf-8996" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
