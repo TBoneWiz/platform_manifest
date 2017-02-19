@@ -48,7 +48,7 @@ To build file-based image instead of default block-based:
 
 	export BLOCK_BASED_OTA=false
 
-To build classic user-debug SlimROM with all apps instead of default essential build (no SuperSU or Viper4Android):
+To build classic user-debug SlimROM with all apps instead of default essential build (no SuperSU, Viper4Android or screen binary, default BusyBox):
 
 	export SLIM_FULL=true
 	brunch mondrianwifi
@@ -59,7 +59,7 @@ To build classic SlimROM user ROM variant with Superuser:
 	export WITH_SU=true
 	brunch mondrianwifi user
 
-To build essential user-debug ROM variant (SuperSU, Viper4Android and screen binary included):
+To build essential user-debug ROM variant (SuperSU, latest BusyBox, Viper4Android and screen binary included):
 
 	export SLIM_FULL=false
 	brunch mondrianwifi
